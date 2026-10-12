@@ -46,8 +46,8 @@ class Matrix {
 int main(){
   Matrix m1(1,2,3,4);
   Matrix m2(5,6,7,8);
-  matrix sum = m1+m2;  
-  matrix product = m1*m2;
+Matrix sum = m1+m2;  
+  Matrix product = m1*m2;
   assert(sum[0][0]==6 && sum[0][1]==8 && sum[1][0]==10 && sum[1][1]==12);
   assert(product[0][0]==19 && product[0][1]==22 && product[1][0]==43 && product[1][1]==50);
   cout<<"matrix A:"<<endl;
